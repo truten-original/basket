@@ -11,7 +11,7 @@ const Counter = ({
     return value === 0 ? "empty" : value
   }
   const getBageClasses = () => {
-    let classes = "badge m-2 "
+    let classes = "badge m-4 "
     classes += value === 0 ? "bg-warning" : "bg-primary"
     return classes
   }
